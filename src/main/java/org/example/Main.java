@@ -7,8 +7,10 @@ public class Main {
 
     public static int factorial(int number) {
         int result = 1;
-        for (int i = 1;i <= number;i++) {
+        int i = 1;
+        while (i <= number) {
             result = result * i;
+            i++;
         }
         return result;
     }
